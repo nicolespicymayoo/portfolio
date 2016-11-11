@@ -1,0 +1,33 @@
+
+.navbar {
+  width: 58vw;
+  margin: 30px auto 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.navbar-item {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: .72rem;
+  letter-spacing: .09rem;
+  color: rgba(0, 0, 0, .45);
+  font-weight: 200;
+  padding:0px 6px 10px;
+}
+
+.navbar-item-active {
+  color: rgba(0, 0, 0, 1);
+  border-bottom: 1px solid rgba(0, 0, 0, .9);
+}
+
+
+@media screen and(max-width: 960px) {
+  .navbar{
+    width: 60vw;
+  }
+}

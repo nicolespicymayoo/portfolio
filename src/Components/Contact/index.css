@@ -1,0 +1,15 @@
+.contact-page h1 {
+  font-family: 'Lora';
+  font-weight: 500;
+  font-size: 2.3rem;
+  margin-top: 80px;
+}
+
+.contact-page h2 {
+  font-family: 'Open Sans';
+  font-weight: 200;
+  font-size: 1.14rem;
+  color: rgba(0, 0, 0, .4);;
+  letter-spacing: .03em;
+  line-height: 1.8
+}

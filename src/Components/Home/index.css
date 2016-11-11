@@ -1,0 +1,29 @@
+
+.home {
+  display: block;
+}
+
+.home-header {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.home-header h1{
+  font-family: 'Lora';
+  font-weight: 500;
+  font-size: 2.3rem;
+  margin-top: -20px;
+}
+
+.home-header h3{
+  font-family: 'Open Sans';
+  font-weight: 200;
+  font-size: .92rem;
+  text-transform:uppercase;
+  color: rgba(0, 0, 0, .4);;
+  letter-spacing: .11em;
+}

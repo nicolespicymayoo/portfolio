@@ -1,0 +1,39 @@
+.logo-header{
+  background-color: rgb(8,8,40);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo-header-title {
+  font-family: 'Lora';
+  text-transform: uppercase;
+  font-size: 1.88rem;
+  letter-spacing: .17em;
+  font-weight: 400;
+  line-height: 0;
+  padding-top: 28px;
+}
+
+.logo-header-subtitle {
+  /*font-family: 'Montserrat';*/
+  text-transform: uppercase;
+  font-size: .8rem;
+  letter-spacing: .24em;
+  font-weight: 300;
+  padding-top: 7px;
+  padding-bottom: 43px;
+  color: rgba(255, 255, 255, .58);
+  font-family: 'Open Sans';
+}
+
+.logo-header-decoration{
+  height: 2px;
+  width: 225px;
+  background: linear-gradient(right,#AE8936, #B8923A, #F6DA72, #B8923A, #AE8936);
+  border-radius: 5px;
+  border: 1px solid #4F4131;
+}
