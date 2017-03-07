@@ -25,19 +25,21 @@ export default class NavBar extends Component {
   render() {
     return(
       <div className="navbar">
-        {
-          routes.map(routeItem =>
-            <Link
-              activeOnlyWhenExact
-              to={routeItem.route}
-              className="navbar-item"
-              activeClassName="navbar-item-active"
-              key={routeItem.name}
-            >
-              {routeItem.name}
-            </Link>
-          )
-        }
+        <div className="navbar-items-container">
+          {
+            routes.map(routeItem =>
+              <Link
+                activeOnlyWhenExact
+                to={routeItem.route}
+                className="navbar-item"
+                activeClassName="navbar-item-active"
+                key={routeItem.name}
+              >
+                {routeItem.name}
+              </Link>
+            )
+          }
+        </div>
       </div>
     )
   }

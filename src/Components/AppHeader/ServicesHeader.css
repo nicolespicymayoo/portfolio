@@ -1,0 +1,15 @@
+.services-header h1 {
+  font-family: 'Lora';
+  font-weight: 500;
+  font-size: 2.1rem;
+  padding: 0;
+}
+
+.services-header h2 {
+  font-family: 'Open Sans';
+  font-weight: 200;
+  font-size: 1.08rem;
+  color: rgba(255, 255, 255, .58);
+  letter-spacing: .03em;
+  line-height: 1.8;
+}

@@ -1,29 +1,38 @@
-
 .home {
   display: block;
 }
-
+.home-section {
+  margin: 0;
+  padding: 100px 0;
+}
+/*
 .home-header {
   height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fafafa;
 }
 
-.home-header h1{
-  font-family: 'Lora';
-  font-weight: 500;
-  font-size: 2.3rem;
-  margin-top: -20px;
+.home-header-title{
+  margin-top: -25px;
 }
 
-.home-header h3{
-  font-family: 'Open Sans';
+.home-header-hero h1{
+  font-family: 'Avenir Next', 'Raleway', 'Lato', Avenir;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.home-header-hero h3{
+  text-transform: uppercase;
+  font-size: .88rem;
+  letter-spacing: .23em;
   font-weight: 200;
-  font-size: .92rem;
-  text-transform:uppercase;
-  color: rgba(0, 0, 0, .4);;
-  letter-spacing: .11em;
-}
+  padding-bottom: 43px;
+  color: rgba(255, 255, 255, .9);
+  font-family: 'Lato';
+}*/

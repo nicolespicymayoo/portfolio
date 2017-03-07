@@ -1,17 +1,9 @@
 .App {
   -webkit-font-smoothing: antialiased;
-  font-family: 'Avenir Next', 'San Francisco', '-apple-system', 'BlinkMacSystemFont', '\.SFNSText-Regular', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-.app-header-divider {
-  margin-top:10px;
-  border-top: 3px dotted black;
-  height: 10px;
-  border-bottom: 1px solid black;
+  font-family: 'Lato', 'Avenir Next', 'San Francisco', '-apple-system', 'BlinkMacSystemFont', '\.SFNSText-Regular', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .App-content {
   display: block;
-  width: 80vw;
-  margin: auto;
+  margin: 0 auto;
 }

@@ -1,0 +1,30 @@
+.service-item{
+  background-color: #fff;
+  padding: 35px;
+  width: 250px;
+  margin: 10px;
+  text-align: center;
+  color: #666666;
+  border-radius: 3px;
+}
+
+.service-item-image{
+  margin-bottom: 20px;
+}
+
+.service-item-title{
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 13px;
+}
+
+.service-item-description{
+  font-size: 13px;
+  line-height: 17px;
+  color: rgba(0,0,0,.9);
+  font-weight: 300;
+  letter-spacing: .3px;
+  line-height: 1.3rem;
+}
