@@ -1,9 +1,12 @@
 .services{
   background-color: #f5f5f5;
+  width: 100%;
+  margin-bottom: 50px;
 }
 
-.services-list{
+.services-list-row{
   display: flex;
-  justify-content: center;
-  margin: 0 auto 50px;
+  justify-content:center;
+  align-items: center;
+  margin: 0 auto;
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.css'
 import LatestWork from '../LatestWork'
+import Skills from '../Skills'
 import Services from '../Services'
 import ContactHeader from '../AppHeader/ContactHeader'
 
@@ -13,7 +14,7 @@ const Home = () => (
       </div>
     </div>*/}
     <LatestWork />
-    <Services />
+    <Skills />
     {/*<div className="home-section">
       <div className="home-quote">
         <p className="quote">"The best design is the simplest one that works the best"</p>

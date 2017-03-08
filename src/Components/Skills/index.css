@@ -1,0 +1,9 @@
+.skills-list{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 50px;
+}
+
+.skills-item{
+  display: inline-block;
+}
