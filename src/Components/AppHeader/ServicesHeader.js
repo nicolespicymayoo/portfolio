@@ -1,5 +1,4 @@
 import React from 'react'
-import Logo from './Logo.js'
 import './ServicesHeader.css'
 
 const ServicesHeader = () => (

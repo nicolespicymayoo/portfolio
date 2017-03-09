@@ -1,9 +1,28 @@
 
 .navbar {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;;
   padding: 25px 0;
+  z-index: 9999;
+  position: fixed;
+}
+
+.navbar-logo{
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo-title{
+  color: white;
+  font-family: 'lato';
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .8px;
+  margin-left: 10px;
 }
 
 .navbar-items-container {
@@ -17,18 +36,19 @@
   text-transform: uppercase;
   font-size: .72rem;
   letter-spacing: .09rem;
-  color: rgba(0,0,0,.82);
+  color: rgba(255,255,255,.6);
   font-weight: 200;
   padding: 4px 0px 9px;
   margin: 0 25px;
 }
 
 .navbar-item-active {
-  /*color: rgba(0, 0, 0, 1);*/
-  border-bottom: 1px solid rgba(0, 0, 0, .2);
-  color: (0,0,0,.82);
-  /*border-left: .8px solid rgba(0, 0, 0,.32);
-  border-right: .8px solid rgba(0, 0, 0,.32);*/
+  border-bottom: 1px solid rgba(255,255,255, .18);
+  color: #fff;
+}
+
+.navbar-item:hover {
+  color: #6BB9F0;
 }
 
 

@@ -13,11 +13,10 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <NavBar />
-          {/*<AppHeader />*/}
           <div className="App-content">
             <Match exactly pattern="/" component={Home} />
-            <Match pattern="/services" component={Services} />
-            <Match pattern="/contact" component={Contact} />
+            {/*<Match pattern="/services" component={Services} />
+            <Match pattern="/contact" component={Contact} />*/}
           </div>
         </div>
       </BrowserRouter>

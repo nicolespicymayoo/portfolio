@@ -4,15 +4,12 @@ import LatestWork from '../LatestWork'
 import Skills from '../Skills'
 import Services from '../Services'
 import ContactHeader from '../AppHeader/ContactHeader'
+import LogoHeader from '../AppHeader/LogoHeader'
+import Header from '../Header'
 
 const Home = () => (
   <div className="home">
-    {/*<div className="home-header">
-      <div className="home-header-hero">
-        <h1 className="home-header-title">Coffee & code</h1>
-        <h3 className="home-header-subtitle">Beautiful, usable websites & interfaces</h3>
-      </div>
-    </div>*/}
+    <Header />
     <LatestWork />
     <Skills />
     {/*<div className="home-section">
